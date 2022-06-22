@@ -19,7 +19,7 @@ for position in pos_arr:
     turtle_object.goto(position)
     segments.append(turtle_object)
 
-gameOver = False
+gameOver = True
 
 while not gameOver:
     screen.update()
